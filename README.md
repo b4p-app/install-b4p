@@ -1,1 +1,33 @@
-# install-b4p
+## B4P Installation
+
+
+
+## Linux - AMD64
+```text
+# wget file as 'raw' to avoid conversion to HTML
+wget --no-check-certificate https://github.com/b4p-app/install-b4p/raw/main/b4p_v10-linux-amd64.zip
+sudo chmod 755 b4p_v10-linux-amd64.zip
+unzip b4p_v10-linux-amd64.zip
+sudo chmod -R 755 b4p_v10-linux-amd64
+cd b4p_v10-linux-amd64
+sudo ./setup --choice=machine --locale=en_US
+```
+
+
+## Linux - ARM64
+```text
+# wget file as 'raw' to avoid conversion to HTML
+wget --no-check-certificate https://github.com/b4p-app/install-b4p/raw/main/b4p_v10-linux-amd64.zip
+sudo chmod 755 b4p_v10-linux-amd64.zip
+unzip b4p_v10-linux-amd64.zip
+sudo chmod -R 755 b4p_installation
+cd b4p_installation/
+sudo ./setup --choice=machine --locale=en_US
+```
+
+
+# zip and unzip
+```text
+zip -r filename.zip foldername
+unzip filename.zip
+```
